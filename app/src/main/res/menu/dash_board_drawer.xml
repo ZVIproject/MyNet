@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zviproject.internetapplication.DashBoard">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/boardInfo"
+            android:icon="@drawable/octocat"
+            android:title="@string/boardInfoText"
+            />
+        <item
+            android:id="@+id/boardTarif"
+            android:icon="@drawable/eye"
+            android:title="@string/boardTarifText" />
+        <item
+            android:id="@+id/boardShare"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/boardActionText" />
+
+        <item
+            android:id="@+id/boardMain"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/boardMain" />
+
+        <item
+            android:id="@+id/boardDeveloper"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/boardSettings" />
+
+        <item
+            android:id="@+id/boardExit"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="@string/boardExit" />
+    </group>
+
+</menu>
