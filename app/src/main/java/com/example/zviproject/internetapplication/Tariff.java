@@ -70,9 +70,9 @@ public class Tariff extends DashBoard {
         startActivity(intent);
     }
 
-
     @Override
     public void onClickExit(){
+        deleteFile("myData");
         Intent intent = new Intent(Tariff.this, Autorization.class);
         startActivity(intent);
     }

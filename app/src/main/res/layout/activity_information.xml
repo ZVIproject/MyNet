@@ -6,45 +6,48 @@
     android:layout_height="match_parent"
     tools:context="com.example.zviproject.internetapplication.Information">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        >
+
+        <TextView
+            android:id="@+id/infoSurname"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="23dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/infoName"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="23dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/infoBalance"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="30dp"
+            android:layout_marginTop="150dp"/>
+    </LinearLayout>
+
     <include
         layout="@layout/dash_board"
         android:layout_width="500dp"
-        android:layout_height="800dp" />
+        android:layout_height="800dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
 
-    <!--  <TextView
-          android:id="@+id/textView"
-          android:layout_width="91dp"
-          android:layout_height="36dp"
-          android:text="Surname"
-          android:textSize="24sp"
-          tools:layout_editor_absoluteX="16dp"
-          tools:layout_editor_absoluteY="16dp" />
 
-      <TextView
-          android:id="@+id/textView2"
-          android:layout_width="94dp"
-          android:layout_height="36dp"
-          android:text="Name"
-          android:textSize="24sp"
-          tools:layout_editor_absoluteX="114dp"
-          tools:layout_editor_absoluteY="16dp" />
-
-      <TextView
-          android:id="@+id/textView3"
-          android:layout_width="124dp"
-          android:layout_height="44dp"
-          android:text="Money"
-          android:textSize="18sp"
-          tools:layout_editor_absoluteX="16dp"
-          tools:layout_editor_absoluteY="114dp" />
-
-      <LinearLayout
-          android:layout_width="255dp"
-          android:layout_height="185dp"
-          android:background="@android:color/holo_blue_light"
-          android:orientation="horizontal"
-          tools:layout_editor_absoluteX="65dp"
-          tools:layout_editor_absoluteY="310dp">
-          </LinearLayout>
--->
   </android.support.constraint.ConstraintLayout>

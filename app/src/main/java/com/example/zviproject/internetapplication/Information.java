@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 
+
 public class Information extends DashBoard{
 
     @Override
@@ -105,9 +106,9 @@ public class Information extends DashBoard{
         startActivity(intent);
     }
 
-
     @Override
     public void onClickExit(){
+        deleteFile("myData");
         Intent intent = new Intent(Information.this, Autorization.class);
         startActivity(intent);
     }

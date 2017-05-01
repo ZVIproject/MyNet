@@ -71,9 +71,9 @@ public class Share extends DashBoard {
         startActivity(intent);
     }
 
-
     @Override
     public void onClickExit(){
+        deleteFile("myData");
         Intent intent = new Intent(Share.this, Autorization.class);
         startActivity(intent);
     }

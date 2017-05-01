@@ -128,6 +128,7 @@ public class DashBoard extends AppCompatActivity
     }
 
     public void onClickExit(){
+        deleteFile("myData");
         Intent intent = new Intent(DashBoard.this, Autorization.class);
         startActivity(intent);
     }
