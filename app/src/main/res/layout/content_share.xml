@@ -8,11 +8,10 @@
     tools:context="com.example.zviproject.internetapplication.Share"
     tools:showIn="@layout/activity_share">
 
-    <include layout="@layout/dash_board" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+        />
 
 </android.support.v4.widget.NestedScrollView>

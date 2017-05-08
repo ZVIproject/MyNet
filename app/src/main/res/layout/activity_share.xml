@@ -16,6 +16,5 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/dash_board" />
 
 </android.support.design.widget.CoordinatorLayout>

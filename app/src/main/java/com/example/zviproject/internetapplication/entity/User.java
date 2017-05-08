@@ -9,6 +9,7 @@ public class User {
     private String name;
     private String surname;
     private Integer contactNumber;
+    private String password;
     private Double balance;
     private String connectionStatus;
 
@@ -59,4 +60,14 @@ public class User {
     public void setConnectionStatus(String connectionStatus) {
         this.connectionStatus = connectionStatus;
     }
+
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 }

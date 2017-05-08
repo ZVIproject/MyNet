@@ -66,13 +66,13 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_weight="0"
-            android:background="@android:color/holo_green_dark"
+            android:background="@drawable/balance_style"
             android:onClick="onClick"
             android:text="@string/autSignInText"
-            android:textColor="@android:color/background_light"
             app:layout_editor_absoluteX="115dp"
             app:layout_editor_absoluteY="320dp"
             tools:ignore="MissingConstraints"
+            android:textColor="@android:color/black"
             tools:layout_editor_absoluteX="115dp"
             tools:layout_editor_absoluteY="320dp" />
 
