@@ -56,22 +56,26 @@
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="229dp"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            />
 
         <Button
             android:id="@+id/autSignIn"
             android:layout_width="172dp"
             android:layout_height="48dp"
-            android:layout_weight="0"
-            android:onClick="onClick"
+            android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:layout_weight="0"
+            android:background="@drawable/butt"
+            android:onClick="onClick"
             android:text="@string/autSignInText"
             app:layout_editor_absoluteX="115dp"
             app:layout_editor_absoluteY="320dp"
             tools:ignore="MissingConstraints"
+            android:textColor="@android:color/black"
             tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="320dp"
-            android:layout_gravity="center"/>
+            tools:layout_editor_absoluteY="320dp" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
