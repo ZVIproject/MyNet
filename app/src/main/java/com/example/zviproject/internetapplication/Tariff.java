@@ -145,8 +145,11 @@ public class Tariff extends DashBoard {
 
     @Override
     public void onClickShare(){
-        Intent intent = new Intent(Tariff.this, Share.class);
-        startActivity(intent);
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "У майбутній версії програми!",
+                Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.BOTTOM, 0, 200);
+        toast.show();
     }
 
     @Override
@@ -163,7 +166,7 @@ public class Tariff extends DashBoard {
 
     @Override
     public void onClickDeveloper(){
-        Intent intent = new Intent(Tariff.this, Autorization.class);
+        Intent intent = new Intent(Tariff.this, Developer.class);
         startActivity(intent);
     }
 

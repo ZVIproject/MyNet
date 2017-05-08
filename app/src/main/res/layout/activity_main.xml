@@ -23,7 +23,6 @@
                 android:src="@drawable/kid"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
-                android:contentDescription=""
                 tools:ignore="ContentDescription"
                 android:onClick="onClickInformation"/>
         </com.daimajia.androidviewhover.BlurLayout>

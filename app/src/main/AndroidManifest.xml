@@ -44,6 +44,10 @@
         <activity
             android:name=".LeftNavigation"
             android:label="@string/title_activity_left_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Developer"
+            android:label="@string/title_activity_developer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
